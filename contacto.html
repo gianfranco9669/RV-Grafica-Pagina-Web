@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | RV Gráfica</title>
+    <meta name="description" content="Contactá a RV Gráfica para asesoría, presupuestos y coordinación de proyectos de comunicación visual.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+</head>
+<body class="page-contacto">
+    <a href="https://wa.me/5491123456789" class="whatsapp-bubble" aria-label="Chateá con RV Gráfica por WhatsApp" target="_blank" rel="noopener">
+        <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <path d="M16 3C9.37 3 4 8.2 4 14.73c0 2.8.95 5.41 2.54 7.49L5 29l6.93-1.8A11.98 11.98 0 0 0 16 26.47c6.63 0 12-5.2 12-11.74C28 8.2 22.63 3 16 3Zm0 20.71c-1.56 0-3.09-.41-4.44-1.21l-.32-.19-4.11 1.07 1.1-3.8-.2-.31a8.58 8.58 0 0 1-1.35-4.74c0-4.81 4.04-8.72 9.01-8.72s9.01 3.91 9.01 8.72-4.04 8.71-9.01 8.71Zm4.96-6.61c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.35-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.56.12-.11.27-.29.41-.43.14-.14.18-.25.27-.43.09-.18.05-.34-.02-.48-.07-.14-.61-1.46-.84-2-.22-.53-.45-.46-.61-.47-.16 0-.34-.01-.52-.01s-.48.07-.73.34c-.25.27-.96.94-.96 2.3 0 1.36.98 2.67 1.12 2.85.14.18 1.92 3.04 4.67 4.14.65.28 1.16.45 1.56.58.65.21 1.24.18 1.7.11.52-.08 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32Z" fill="currentColor"/>
+        </svg>
+    </a>
+
+    <header class="page-hero">
+        <div class="container header-top">
+            <div class="branding">
+                <a href="index.html" class="logo" aria-label="RV Gráfica">
+                    <img src="assets/img/logo.svg" alt="RV Gráfica" width="118" height="118">
+                </a>
+            </div>
+            <nav class="site-nav" aria-label="Principal">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="main-navigation">Menú</button>
+                <ul id="main-navigation" class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="ploteos.html">Ploteos</a></li>
+                    <li><a href="carteleria.html">Cartelería</a></li>
+                    <li><a href="vidrieras.html">Vidrieras</a></li>
+                    <li><a class="is-active" href="contacto.html" aria-current="page">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container hero-inner">
+            <div class="hero-copy">
+                <span class="hero-badge">Coordinación inmediata</span>
+                <h1>Coordinemos tu próximo proyecto</h1>
+                <p>Completa el formulario o elegí el canal que prefieras. Nuestro equipo responde dentro de las próximas 24 horas hábiles.</p>
+            </div>
+            <div class="hero-visual contact-cards">
+                <article>
+                    <h2>Asesoría integral</h2>
+                    <p>+54 11 2345-6789</p>
+                    <span>De lunes a viernes de 9 a 18 h</span>
+                </article>
+                <article>
+                    <h2>WhatsApp</h2>
+                    <p>+54 9 11 2345-6789</p>
+                    <span>Respuestas rápidas y seguimiento de proyectos</span>
+                </article>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section contact-section" aria-labelledby="form-title">
+            <div class="container contact-grid">
+                <div>
+                    <div class="section-header">
+                        <span class="section-eyebrow">Formulario</span>
+                        <h2 id="form-title">Contanos sobre tu proyecto</h2>
+                        <p>Compartí detalles, fechas clave y objetivos. Te enviaremos una propuesta a medida con cronograma tentativo.</p>
+                    </div>
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-field">
+                            <label for="nombre">Nombre y apellido</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        <div class="form-field">
+                            <label for="servicio">Servicio de interés</label>
+                            <select id="servicio" name="servicio">
+                                <option value="ploteos">Ploteos</option>
+                                <option value="carteleria">Cartelería</option>
+                                <option value="vidrieras">Vidrieras</option>
+                                <option value="otros">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <label for="mensaje">Detalle del proyecto</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Enviar consulta</button>
+                    </form>
+                </div>
+                <aside class="contact-aside">
+                    <div class="availability">
+                        <h3>Disponibilidad de agenda</h3>
+                        <ul>
+                            <li><span>Semana actual</span><strong>80%</strong></li>
+                            <li><span>Semana próxima</span><strong>65%</strong></li>
+                            <li><span>Próximo mes</span><strong>40%</strong></li>
+                        </ul>
+                    </div>
+                    <div class="faq" data-accordion>
+                        <h3>Preguntas frecuentes</h3>
+                        <article class="faq-item">
+                            <button type="button" aria-expanded="false">¿Cuánto demora un proyecto integral?</button>
+                            <div class="faq-content">
+                                <p>Dependiendo del alcance, los plazos varían entre 10 y 25 días hábiles. Incluimos cronograma detallado en cada propuesta.</p>
+                            </div>
+                        </article>
+                        <article class="faq-item">
+                            <button type="button" aria-expanded="false">¿Trabajan en todo el país?</button>
+                            <div class="faq-content">
+                                <p>Sí. Contamos con red logística y equipos móviles que nos permiten operar en principales ciudades y polos industriales.</p>
+                            </div>
+                        </article>
+                        <article class="faq-item">
+                            <button type="button" aria-expanded="false">¿Pueden trabajar con mi equipo de diseño?</button>
+                            <div class="faq-content">
+                                <p>Nos integramos a tu equipo aportando recursos técnicos y producción. También podemos desarrollar el diseño completo si lo necesitás.</p>
+                            </div>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section channel-section" aria-labelledby="channel-title">
+            <div class="container channel-grid" data-channel>
+                <div class="channel-copy">
+                    <span class="section-eyebrow">Canales</span>
+                    <h2 id="channel-title">Elegí cómo querés que te contactemos</h2>
+                    <p>Seleccioná el canal principal y te mostraremos el tiempo de respuesta estimado junto a la dinámica de seguimiento.</p>
+                </div>
+                <div class="channel-options" role="tablist" aria-label="Canales de contacto preferidos">
+                    <button class="channel-btn is-active" type="button" data-channel-option="email" aria-selected="true">Correo electrónico</button>
+                    <button class="channel-btn" type="button" data-channel-option="whatsapp" aria-selected="false">WhatsApp Business</button>
+                    <button class="channel-btn" type="button" data-channel-option="video" aria-selected="false">Videollamada</button>
+                </div>
+                <aside class="channel-output">
+                    <div class="channel-stat">
+                        <span class="channel-label">Tiempo de respuesta</span>
+                        <strong class="channel-value" data-channel-response>0 h</strong>
+                    </div>
+                    <div class="channel-stat">
+                        <span class="channel-label">Seguimiento</span>
+                        <strong class="channel-value" data-channel-followup>—</strong>
+                    </div>
+                    <p class="channel-note" data-channel-note>Elegí un canal para ver la dinámica de atención.</p>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section contact-map" aria-labelledby="map-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Visitanos</span>
+                    <h2 id="map-title">Showroom & taller</h2>
+                    <p>Coordiná una visita para recorrer nuestras instalaciones, ver muestras de materiales y conocer al equipo técnico.</p>
+                </div>
+                <div class="map-embed" role="presentation">
+                    <iframe title="Ubicación RV Gráfica" src="https://maps.google.com/maps?q=Buenos%20Aires&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="index.html" class="logo footer-logo" aria-label="RV Gráfica">
+                    <img src="assets/img/logo.svg" alt="RV Gráfica" width="110" height="110">
+                </a>
+                <p>Soluciones integrales de comunicación visual para marcas que buscan destacarse.</p>
+            </div>
+            <div>
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="ploteos.html">Ploteos vehiculares</a></li>
+                    <li><a href="carteleria.html">Cartelería</a></li>
+                    <li><a href="vidrieras.html">Vidrieras</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="mailto:contacto@rvgrafica.com">contacto@rvgrafica.com</a></li>
+                    <li><a href="tel:+541123456789">+54 11 2345-6789</a></li>
+                    <li><a href="https://wa.me/5491123456789" target="_blank" rel="noopener">WhatsApp directo</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Seguinos</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copy">© <span id="year"></span> RV Gráfica. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>

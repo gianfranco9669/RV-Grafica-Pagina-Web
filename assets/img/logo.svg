@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" aria-labelledby="title desc">
+  <title id="title">RV Gráfica</title>
+  <desc id="desc">Isotipo geométrico con las letras RV en degradado azul y naranja</desc>
+  <defs>
+    <linearGradient id="grad-rv" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a7bd5"/>
+      <stop offset="50%" stop-color="#5fc0f1"/>
+      <stop offset="100%" stop-color="#f58529"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="132" height="132" rx="28" fill="#0b1c2e"/>
+  <path fill="none" stroke="url(#grad-rv)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
+        d="M40 100V40h26c15 0 24 8 24 20 0 8-4 15-11 18l16 22"/>
+  <path fill="none" stroke="url(#grad-rv)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
+        d="M40 100h60"/>
+</svg>
